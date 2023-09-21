@@ -35,3 +35,9 @@ NOTE: the pdb files after this command are changed with REMARK lines, so it is a
 ## To do
 
 [ ] Add to accept both contigs and individual input position in add fixed label scripts as command line inputs.
+
+## Library requirements
+
+- biopython
+- pandas
+- numpy
