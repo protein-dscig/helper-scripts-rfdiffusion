@@ -53,8 +53,7 @@ if __name__ == "__main__":
         print(i)
 
         if not pdb.endswith(".pdb"):
-            if args.verbose:
-                print(f"Skipping {pdb} as it is not a PDB file")
+            print(f"Skipping {pdb} as it is not a PDB file")
             continue
 
         substitute_residue_names(pdb_file1, os.path.join(args.pdbdir, pdb), 'tmp.pdb')
